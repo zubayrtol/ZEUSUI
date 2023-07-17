@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&family=Syne:wght@700&display=swap');
+:root{
+    /* --border: 1px solid; */
+}
+header{
+    width: 1440px;
+    height: 612px;
+    border: var(--border);
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    width: 1440px;
+    height: 76px;
+    background-color: #FFF;
+    border: var(--border);
+}
+.list1{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 344px;
+    height: 100%;
+    border: var(--border);
+}
+.nav-list1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 274px;
+    height: 44px;
+    border: var(--border);
+}
+.nav-list-li{
+    color: var(--black, #000);
+    font-family: 'Space Grotesk';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.nav-list-li:hover{
+    color: rgb(243, 12, 0);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 100%;
+    flex-shrink: 0;
+    border: var(--border);
+}
+.list2{
+    display: flex;
+    width: 320px;
+    height: 100%;
+    border: var(--border);
+}
+.nav-list2{
+    display: flex;
+    width: 265px;
+    height: 44px;
+    border: var(--border);
+}
+.nav-button1{
+    width: 102px;
+    height: 44px;
+    border: 1px solid white;
+    background-color: white;
+}
+.nav-button2{
+    width: 92px;
+    height: 44px;
+    border: 1px solid white;
+    background-color: white;
+}
+.nav-button1:hover{
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: #4c4c4c;
+}
+.nav-button2:hover{
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: #4c4c4c;
+}
+
+.hero{
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 574px;
+    background-image: url(./images/Group\ 1.png);
+    background-size: 1400px 800px;
+    background-position-y: -120px;
+    background-position-x: 35px;
+}
+.hero-h1{
+    margin-top: 50px;
+    color: var(--black, #000);
+    text-align: center;
+    text-shadow: -5px 5px 0px 0px #FFF;
+    font-family: 'Syne';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 96px; 
+}
+.paragraph{
+    color: var(--accent, #532C59);
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.hero-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    margin-left: 670px;
+    width: 114px;
+    height: 52px;
+    border-radius: 15px;
+    background-color: #532C59;
+}
+.hero-b-p{
+    color: var(--white, #FFF);
+    font-family: 'Syne';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+.hero-button:hover{
+    background-color: #944a9f;
+}
+/* header end  */
+
+
+main{
+    width: 1440px;
+    height: 5748px;
+    margin: 0 auto;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 120px;
+}
+.section1-1{
+    display: flex;
+    width: 1300px;
+    height: 40px;
+}
+.section1-1-logo-img{
+    margin-left: 40px;
+}
+
+
+.features{
+    align-items: center;
+    width: 1440px;
+    height: 2075px;
+}
+.features-h2{
+    color: var(--black, #000);
+    text-align: center;
+    font-family: 'Syne';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+}
+.features-p{
+    color: var(--accent, #532C59);
+    text-align: center;
+    font-family: 'Space Grotesk';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.features1{
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 548px;
+}
+.features-1{
+    margin-left: 20px;
+    width: 412px;
+    height: 516px;
+}
+.features-h3{
+    margin-top: 16px;
+    color: var(--black, #000);
+    text-align: center;
+    font-family: 'Syne';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+}
+.features-p1{
+    margin-top: -12px;
+    color: var(--accent, #532C59);
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 532px;
+}
+.team-1{
+    width: 1300px;
+    height: 372px;
+}
+.team-h1{
+    color: var(--black, #000);
+    text-align: center;
+    font-family: 'Syne';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+}
+.team-p{
+    color: var(--accent, #532C59);
+    text-align: center;
+    font-family: 'Space Grotesk';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.team-line{
+    display: flex;
+    width: 1300px;
+    height: 156px;
+}
+
+
+
+.features2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 560px;
+}
+.features2-1{
+    width: 1300px;
+    height: 376px;
+}
+.features-line{
+    margin-top: 74px;
+    display: flex;
+    width: 1300px;
+    height: 200px;
+}
+
+
+.testimonials{
+    margin-top: 110px;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 944px;
+}
+.testimonials-h1{
+    color: var(--black, #000);
+    text-align: center;
+    font-family: 'Syne';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+
+.faq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 632px;
+}
+.faq-1{
+    display: flex;
+    width: 1300px;
+    height: 518px;
+}
+.block-content{
+    width: 412px;
+    height: 324px;
+}
+.block-content-h1{
+    margin-top: -10px;
+    color: var(--black, #000);
+    font-family: 'Syne';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+.block-content-p{
+    color: var(--accent, #532C59);
+    font-family: 'Space Grotesk';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.cards{
+    margin-left: 32px;
+    display: flex;
+    width: 856px;
+    height: 518px;
+}
+.cards-1{
+    width: 412px;
+    height: 518px;
+}
+.cards1-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 412px;
+    height: 100px;
+}
+.what-kind-of{
+    width: 364px;
+    height: 52px;
+    color: var(--black, #000);
+    font-family: 'Space Grotesk';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+.cards1-2{
+    margin-top: 24px;
+    width: 412px;
+    height: 146px;
+}
+.how-much{
+    margin-left: 24px;
+    margin-top: 20px;
+    width: 364px;
+    height: 26px;
+    color: var(--black, #000);
+    font-family: 'Space Grotesk';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+.cards1-2-p{
+    margin-left: 24px;
+    color: var(--accent, #532C59);
+    font-family: 'Space Grotesk';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.cards-2{
+    margin-left: 30px;
+    width: 412px;
+    height: 446px;
+}
+.cards2-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 412px;
+    height: 74px;
+}
+.CTA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 606px;
+}
+.cta-1{
+    position: relative;
+    width: 1300px;
+    height: 446px;
+    border-radius: 60px;
+    border: 1px solid var(--purple-30, #D6BCFA);
+    background: #FCFAFF;
+    box-shadow: 0px 0px 50px 0px #F8E0FA inset;
+    background-image: url(./images/CTA\ 1.png);
+    background-repeat: no-repeat;
+}
+.cta-h1{
+    margin-top: 100px;
+    color: var(--black, #000);
+    text-align: center;
+    font-family: 'Syne';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+}
+.cta-p{
+    color: var(--accent, #532C59);
+    text-align: center;
+    font-family: 'Space Grotesk';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.CTA-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 156px;
+    height: 52px;
+    background-color: rgba(83, 44, 89, 1);
+    border-radius: 12px;
+    margin-left: 570px;
+}
+.CTA-b-p{
+    color: var(--white, #FFF);
+    font-family: 'Syne';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+.CTA-button:hover{
+    background-color: #944a9f;
+}
+footer{
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 261px;
+}
+.footer-1{
+    margin-top: 80px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    width: 1340px;
+    height: 40px;
+}
+.link-column{
+    display: flex;
+    list-style: none;
+    width: 534.5px;
+    height: 20px;
+}
+.footer-logo{
+    margin-left: 20px;
+    width: 151px;
+    height: 40px;
+}
+.link-column-li{
+    margin-left: -29px;
+    color: var(--black, #000);
+    font-family: 'Space Grotesk';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.link-column-li:hover{
+    color: #ff0000;
+}
+.footer-hr{
+    margin-top: 41px;
+    width: 1300px;
+    height: 1px;
+}
+.footer-ul{
+    margin-left: 50px;
+    margin-top: 40px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    height: 20px;
+}
+.footer-li{
+    color: var(--black, #000);
+    text-align: center;
+    font-family: 'Space Grotesk';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+/* tugadi */
